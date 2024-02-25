@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin: 2rem 5rem;
+}
+.lnav{
+}
+.rnav{
+    display: flex;
+    justify-content: space-between;
+}
+.profile,.signin{
+    /* padding: 1rem; */
+}
+.profile a{
+    padding: 0.6rem 2rem;
+    margin-right: 1rem;
+    background-color: green;
+    border-radius: 5rem;
+}
+.signin a{
+    padding: 0.8rem 1rem;
+    background-color: #000;
+    border-radius: 1rem;
+}
+
+.profile a,.signin a{
+    
+    color: #fff;
+}
