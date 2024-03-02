@@ -1,7 +1,5 @@
-import React from 'react'
-
-export default function Credit() {
+export default function Credit({creditContainer,creditWord}) {
   return (
-    <p>Credit</p>
+    <p className={creditContainer}>{creditWord}</p>
   )
 }
