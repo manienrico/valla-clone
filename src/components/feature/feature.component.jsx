@@ -2,7 +2,7 @@ import Picture from '../pic/pic.component'
 import Text from '../text/text.component'
 import './feature.component.css'
 
-export default function Feature({containerName, picUrl,picAlt,picClassName,featureWords,cFeature}) {
+export default function Feature({featureContainer,containerName, picUrl,picAlt,picClassName,featureWords,cFeature}) {
   return (
     <div className={featureContainer}>
         <Picture cName={containerName}  pic={picUrl} altText={picAlt} picName={picClassName} />
