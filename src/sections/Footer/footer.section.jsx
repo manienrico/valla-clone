@@ -5,9 +5,11 @@ import './footer.section.css'
 export default function Footer() {
   return (
     <footer>
+      <section>
         <Bagia />
-        <hr/>
+          <hr/>
         <Credits />
+      </section>
         <div className='signature'> 2024 All rights reserved</div>
     </footer>
   )
