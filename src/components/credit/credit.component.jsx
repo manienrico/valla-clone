@@ -1,5 +1,5 @@
 export default function Credit({creditContainer,creditWord}) {
   return (
-    <p className={creditContainer}>{creditWord}</p>
+    <a href="#" className={creditContainer}>{creditWord}</a>
   )
 }
