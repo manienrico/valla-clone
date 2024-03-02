@@ -1,10 +1,8 @@
-import React from 'react'
-
-export default function Picture({pic,altText}) {
+export default function Picture({pic,altText,cName,picName}) {
   return (
     <>
-        <div>
-            <img src={pic} alt={altText} />
+        <div className={cName}>
+            <img src={pic} alt={altText} className={picName} />
         </div>
     </>
   )

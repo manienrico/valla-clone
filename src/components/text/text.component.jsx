@@ -1,10 +1,8 @@
-import React from 'react'
-
-export default function Text({words}) {
+export default function Text({words,wName}) {
   return (
     <>
         
-        <p>{words}</p>
+        <p className={wName}>{words}</p>
     </>
   )
 }
