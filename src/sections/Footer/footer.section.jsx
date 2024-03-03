@@ -10,7 +10,7 @@ export default function Footer() {
           <hr/>
         <Credits />
       </section>
-        <div className='signature'> 2024 All rights reserved</div>
+        <div className='signature'> &copy;2024 All rights reserved</div>
     </footer>
   )
 }
