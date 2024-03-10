@@ -1,0 +1,27 @@
+.heroGroup{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 12rem;
+}
+.heroGroup h1{
+    font-size: 4rem;
+}
+.heroLogo{
+    color: #22C55E;
+}
+.heroGroup p{
+    margin: 2rem 0;
+    font-size: large;
+    font-weight:600;
+    color: #374151;
+}
+.heroBtn{
+    border: none;
+    background-color: #22C55E;
+    margin: 0.8rem 0;
+    padding: 0.8rem 1rem;
+    color: #fff;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+}

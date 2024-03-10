@@ -4,11 +4,11 @@ import "./hero.component.css"
 function Hero() {
   return (
     <>
-        <section>
-            <h1>All in one digital payment solution</h1>
-            <p>Simplify your financial life, make transactions easier, faster, and safer than ever before.</p>
+        <section className="heroGroup">
+            <h1>All in one <span className="heroLogo">digital</span><br/> payment solution</h1>
+            <p>Simplify your financial life, make transactions easier, faster, and safer<br/> than ever before.</p>
             <div>
-                <Button/>
+                <Button name='Get Started' className='heroBtn' />
             </div>
         </section>
     </>
