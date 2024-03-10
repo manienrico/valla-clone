@@ -9,17 +9,39 @@ nav{
 }
 .rnav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 }
-.profile{
-    /* margin: 0rem 1rem; */
-    border-radius: 2rem;
-}
-.profile,.signin{
+.avi,.in{
     margin: 0rem 1rem;
     padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.avi{
+    padding: 1rem 1.2rem;
+    background-color: #22C55E;
+    color: #fff;
+    border-radius: 2rem;
+}
+.in{
+    background-color: #000;
+    color: #fff;
+    border-radius: 0.4rem;
+}
+.profile,.signin{
+    margin: 0rem 0.5rem;
+    /* margin: 0rem 1rem;
+    padding: 1rem; */
     outline: none;
     border: none;
+    background-color: transparent;
+}
+.links{
+    color: #fff;
 }
 /* .profile a{
      padding: 0.6rem 2rem;
