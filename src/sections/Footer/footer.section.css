@@ -1,12 +1,29 @@
+footer{
+    margin-top: 2rem;
+}
 .contain{
     display: flex;
     flex-direction: column;
 }
 .ulContain{
     display: flex;
+    margin: 0.5rem 0 0.5rem;
 }
 .ulContain li{
     list-style: none;
+}
+.first{
+    font-weight: bold;
+    font-size: larger;
+}
+.second{
+    color: green;
+    font-weight: 400;
+}
+.tag{
+    color: #000;
+    font-weight: bold;
+    padding: 0rem 0.5rem 0rem;
 }
 #lower{
     margin: 2rem 0rem;
