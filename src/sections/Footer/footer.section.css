@@ -1,3 +1,13 @@
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+.ulContain{
+    display: flex;
+}
+.ulContain li{
+    list-style: none;
+}
 #lower{
     margin: 2rem 0rem;
 }

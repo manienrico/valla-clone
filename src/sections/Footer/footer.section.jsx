@@ -5,7 +5,7 @@ import './footer.section.css'
 export default function Footer() {
   return (
     <footer>
-      <Bagia />
+      <Bagia bagiaContainer='contain' ulContainer='ulContain' />
         <hr/>
         <section id='lower'>
           <Credits />
