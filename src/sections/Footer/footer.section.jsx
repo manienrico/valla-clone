@@ -5,12 +5,12 @@ import './footer.section.css'
 export default function Footer() {
   return (
     <footer>
-      <section>
-        <Bagia />
-          <hr/>
-        <Credits />
-      </section>
-        <div className='signature'> &copy;2024 All rights reserved</div>
-    </footer>
+      <Bagia />
+        <hr/>
+        <section id='lower'>
+          <Credits />
+          <div className='signature'> &copy;2024 All rights reserved</div>
+        </section>
+      </footer>
   )
 }

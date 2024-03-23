@@ -3,11 +3,11 @@ import './credits.component.css'
 
 export default function Credits() {
   return (
-    <ul>
-        <li><Credit creditWord='Terms' /></li>
-        <li><Credit creditWord='Privacy' /></li>
-        <li><Credit creditWord='FAQs' /></li>
-        <li><Credit creditWord='Help' /></li>
+    <ul id='credits'>
+        <li><Credit creditWord='Terms' creditContainer='credit-link' /></li>
+        <li><Credit creditWord='Privacy' creditContainer='credit-link' /></li>
+        <li><Credit creditWord='FAQs' creditContainer='credit-link' /></li>
+        <li><Credit creditWord='Help' creditContainer='credit-link' /></li>
     </ul>
   )
 }
