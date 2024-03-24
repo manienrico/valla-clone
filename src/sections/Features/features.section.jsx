@@ -9,7 +9,12 @@ export default function Features() {
       <div>
         <Feature picUrl={img} />
       </div>
-      <div></div>
+      <div>
+        <Feature containerName='a' picUrl='' picAlt='' picClassName='' featureWords='Encrypted payment credentials' cFeature='' />
+        <Feature containerName='a' picUrl='' picAlt='' picClassName='' featureWords='QR code payments' cFeature='' />
+        <Feature containerName='a' picUrl='' picAlt='' picClassName='' featureWords='Reference code payments' cFeature='' />
+        <Feature containerName='a' picUrl='' picAlt='' picClassName='' featureWords='In-App budgeting' cFeature='' />
+      </div>
       </section>
   )
 }
