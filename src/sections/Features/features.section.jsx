@@ -1,3 +1,4 @@
+import  LuShieldCheck  from "react-icons/lu";
 import { AiOutlineSafety } from "react-icons/ai";
 import Feature from '../../components/feature/feature.component'
 import './features.section.css'
