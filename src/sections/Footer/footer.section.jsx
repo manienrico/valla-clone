@@ -5,12 +5,14 @@ import './footer.section.css'
 export default function Footer() {
   return (
     <footer>
-      <Bagia first='first' cHead='second' sociaLink='tag' bagiaContainer='contain' ulContainer='ulContain' />
-        <hr/>
+      <div className='footer-contain'>
+        <Bagia first='first' cHead='second' sociaLink='tag' bagiaContainer='contain' ulContainer='ulContain' />
+        <hr className='hr'/>
         <section id='lower'>
           <Credits />
           <div className='signature'> &copy;2024 All rights reserved</div>
         </section>
-      </footer>
+      </div>
+    </footer>
   )
 }
