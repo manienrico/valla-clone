@@ -1,0 +1,26 @@
+#partner-contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#partner-head{
+    text-align: center;
+    padding: 3rem 0;
+    font-weight:bolder;
+}
+#partner-body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4;
+}
+.body-item{
+    padding: 4rem;
+    align-items: center;
+    display: flex;
+    font-weight: 800;
+    color: rgb(221, 215, 215);
+}
+.body-item:hover{
+    cursor: pointer;
+    color: greenyellow;
+}

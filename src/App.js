@@ -5,6 +5,7 @@ import Features from './sections/Features/features.section';
 import Footer from './sections/Footer/footer.section';
 import Hero from './sections/Hero/hero.component';
 import Nav from './sections/Navigation/Nav.component';
+import Partners from './sections/Partners/Partners';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       {/* <Hero /> */}
       <Nav/>
       <Hero/>
+      <Partners />
       <Features />
       <Footer />
     </div>
