@@ -15,8 +15,8 @@ export default function Features() {
         <Feature picUrl={img} picClassName='fpic' />
       </div>
       <div className="fRight">
-        <h3>Key Features</h3>
-        <div className="">
+        <h3 className="ft-head">Key Features</h3>
+        <div className="ft">
           <p id="feat"><LuShieldCheck size='1.8rem' /><Text words='Encrypted payment credentials' /></p>
           <p id="feat"><LuQrCode size='1.8rem' /><Text  words='QR code payments' /></p>
           <p id="feat"><IoReceiptOutline size='1.8rem' /><Text words='Reference code payments' /></p>
