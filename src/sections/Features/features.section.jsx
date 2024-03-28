@@ -6,6 +6,7 @@ import { AiOutlineSafety } from "react-icons/ai";
 import Feature from '../../components/feature/feature.component'
 import './features.section.css'
 import img from '../../assests/img-2.jpg'
+import Text from "../../components/text/text.component";
 
 export default function Features() {
   return (
@@ -14,10 +15,13 @@ export default function Features() {
         <Feature picUrl={img} picClassName='fpic' />
       </div>
       <div className="fRight">
-        <p id="feat"><LuShieldCheck /><Feature containerName='a' picUrl='' picAlt='' picClassName='' featureWords='Encrypted payment credentials' cFeature='' /></p>
-        <p id="feat"><LuQrCode /><Feature containerName='a' picUrl='' picAlt='' picClassName='' featureWords='QR code payments' cFeature='' /></p>
-        <p id="feat"><IoReceiptOutline /><Feature containerName='a' picUrl='' picAlt='' picClassName='' featureWords='Reference code payments' cFeature='' /></p>
-        <p id="feat"><BsPhone /><Feature containerName='a' picUrl='' picAlt='' picClassName='' featureWords='In-App budgeting' cFeature='' /></p>
+        <h3>Key Features</h3>
+        <div className="">
+          <p id="feat"><LuShieldCheck size='1.8rem' /><Text words='Encrypted payment credentials' /></p>
+          <p id="feat"><LuQrCode size='1.8rem' /><Text  words='QR code payments' /></p>
+          <p id="feat"><IoReceiptOutline size='1.8rem' /><Text words='Reference code payments' /></p>
+          <p id="feat"><BsPhone size='1.8rem' /><Text words='In-App budgeting' /></p>
+        </div>
       </div>
       </section>
   )

@@ -1,10 +1,15 @@
 #feature{
+    margin: 3rem 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.a{
+    display: hidden;
 }
 .fLeft{
     /* flex: 2; */
-    width: 40%;
+    width: 25%;
     height: auto;
 }
 .fpic{
@@ -12,22 +17,20 @@
     height: 100%;
 }
 .fRight{
-    /* flex: 3;*/
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 1rem; */
+    align-items: right;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 0.5rem;
-    align-items: center;
-    
+    column-gap: 1rem;
 }
 #feat{
     display: flex;
     flex-direction: row;
+    margin: 1rem;
     padding: 1rem;
-    background-color: gray;
+    background-color: rgb(235, 230, 230);
     border-radius: 1rem;
-    height: 4rem;
+    height: 2.5rem;
     width: auto;
+    align-items: center;
+    justify-content: space-evenly;
 }
