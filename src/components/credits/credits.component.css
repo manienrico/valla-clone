@@ -1,10 +1,10 @@
 #credits{
     display: flex;
-    margin-left: 0rem;
+    /* margin-left: 0rem; */
 }
 #credits li{
     list-style: none;
-    padding: 0rem 1rem 0rem;
+    /* padding: 0rem 1rem 0rem; */
 }
 .credit-link{
     color: #000;

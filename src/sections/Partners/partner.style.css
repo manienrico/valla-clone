@@ -7,11 +7,13 @@
     text-align: center;
     padding: 3rem 0;
     font-weight:bolder;
+    font-size: 1.6rem;
 }
 #partner-body {
     display: flex;
     flex-wrap: wrap;
     gap: 4;
+    justify-content: space-around;
 }
 .body-item{
     padding: 4rem;
@@ -19,8 +21,10 @@
     display: flex;
     font-weight: 800;
     color: rgb(221, 215, 215);
+    font-size: 2rem;
+    font-weight:bolder;
 }
 .body-item:hover{
     cursor: pointer;
-    color: greenyellow;
+    color: #22C55E;
 }

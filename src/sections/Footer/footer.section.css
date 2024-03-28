@@ -7,27 +7,32 @@ footer{
 }
 .ulContain{
     display: flex;
-    margin: 0.5rem 0 0.5rem;
+    /* margin: 0.5rem 0 0.5rem; */
 }
 .ulContain li{
     list-style: none;
 }
-.first{
+#first{
     font-weight: bold;
-    font-size: larger;
+    font-size: 2rem;
+    font-weight: 800;
 }
 .second{
-    color: green;
-    font-weight: 400;
+    color: #22C55E;
+    font-weight: 800;
 }
 .tag{
     color: #000;
     font-weight: bold;
-    padding: 0rem 0.5rem 0rem;
+    padding-right: 1rem;
+    /* padding: 0rem 0.5rem 0rem; */
+}
+.tag:hover,.tag:focus-visible,.tag:focus{
+    color: #22C55E;
 }
 #lower{
     margin: 2rem 0rem;
 }
 .signature{
-    margin: 0.5rem 0.5rem;
+    /* margin: 0.5rem 0.5rem; */
 }

@@ -7,9 +7,9 @@ export default function Bagia({bagiaContainer,first,cHead,ulContainer,sociaLink}
     <div className={bagiaContainer}>
         <h3 id={first}>Val<span className={cHead}>la</span></h3>
         <ul className={ulContainer}>
-            <li><a href="#" className={sociaLink}><RiTwitterXFill /></a></li>
-            <li><a href="#" className={sociaLink}><FiLinkedin /></a></li>
-            <li><a href="#" className={sociaLink}><IoLogoInstagram /></a></li>
+            <li><a href="#" className={sociaLink}><RiTwitterXFill size="1.5rem" /></a></li>
+            <li><a href="#" className={sociaLink}><FiLinkedin size="1.6rem" /></a></li>
+            <li><a href="#" className={sociaLink}><IoLogoInstagram size="1.5rem" /></a></li>
         </ul>
     </div>
   )
