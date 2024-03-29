@@ -14,15 +14,16 @@ nav{
 }
 .avi,.in{
     margin: 0rem 1rem;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     display: flex;
     justify-content: space-around;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    align-items: center;
 }
 .avi{
-    padding: 1rem 1.2rem;
+    /* padding: 1rem 1.2rem; */
     background-color: #22C55E;
     color: #fff;
     border-radius: 2rem;
@@ -34,8 +35,6 @@ nav{
 }
 .profile,.signin{
     margin: 0rem 0.5rem;
-    /* margin: 0rem 1rem;
-    padding: 1rem; */
     outline: none;
     border: none;
     background-color: transparent;
