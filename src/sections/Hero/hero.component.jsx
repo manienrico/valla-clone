@@ -11,6 +11,9 @@ function Hero() {
                 <Button name='Get Started' className='heroBtn' />
             </div>
         </section>
+        <center>
+          <p className="home-text">Generate a <b>single</b> payment QR code or<br/> reference code for <b>multiple</b> payment options</p>
+        </center>
     </>
   )
 }
